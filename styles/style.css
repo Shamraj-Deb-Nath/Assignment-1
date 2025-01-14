@@ -15,6 +15,13 @@ body {
     height: 60px;
     ;
 }
+.navbar .left {
+        font-weight: bold; /* Bold text */
+        font-size: 2.5em; /* Adjust font size */
+        color: #333; /* Dark text color */
+        margin-left: 75px; /* Remove margin around text */
+
+}
 .navbar .right .sign-in-btn {
     background-color: white;
     color: #006A50;
@@ -43,12 +50,72 @@ body {
     background-color: #C6E4D6;
     border-radius: 24px;
     box-shadow:0px 4px 4px;
+    height: 1280;
+    width: 560;
 }
 
    
 .hero{
     margin-left: auto;
-    height: 350px;
+    height: 470px;
+    weight: 400;
     padding: 100px 200px;
 
+}
+.btn-exp{
+    color: white;
+    font-weight: bold;
+    font-family: Fira Sans;
+    background-color: #006A50;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+}
+.btn-exp:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-color: #006A50;
+}
+
+.container1{
+    padding-top: 150px;
+
+}
+
+.sub-title{
+    opacity: 40% ;
+}
+
+/* 2nd section*/
+
+.plofbd-title{
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.container {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px; 
+    gap: 110px;
+}
+
+.pillar {
+    width: 200px; 
+    padding: 20px;
+    box-shadow: 0px 4px 4px;
+    border-radius: 10px;
+}
+
+
+
+.pillar-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.pillar-description {
+    font-size: 14px;
+    color: #777;
 }
