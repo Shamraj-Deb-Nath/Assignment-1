@@ -15,11 +15,10 @@ body {
     height: 60px;
 }
 .navbar .left {
-        font-weight: bold; /* Bold text */
-        font-size: 3em; /* Adjust font size */
-        color: #333; /* Dark text color */
-        margin-left: 75px; /* Remove margin around text */
-
+        font-weight: bold; 
+        font-size: 3em; 
+        color: #333; 
+        margin-left: 75px; 
 }
 .navbar .right .sign-in-btn  {
     background-color: white;
@@ -41,7 +40,6 @@ body {
     color: white;
     border-color: #006A50;
 }
-
 /* First section */
 .first-section{
     display: flex;
@@ -54,7 +52,6 @@ body {
     width: 560;
     
 }
-
 .hero{
     margin-left: auto;
     height: 470px;
@@ -79,13 +76,12 @@ body {
     cursor: pointer;
     border-color: #006A50;
 }
-
 .container1{
     padding-top: 15px;
 }
 .sub-title{
     opacity: 30% ;
-    font-size: 24px;
+    font-size: 32px;
 }
 .title{
     font-size: 56px;
@@ -96,8 +92,7 @@ body {
 .pillar-of-bd-title{
     margin-left: 100px;
     margin-top: 40px;
-    font-size: 40px;
-    
+    font-size: 40px;   
 }
 .container2{
     display: flex;
@@ -110,7 +105,6 @@ body {
     position: relative;
        
 }
-
 .pillar {
     width: 250px;
     left: 10; 
@@ -147,7 +141,6 @@ body {
     right: 3%;
     padding: 32px 32px;
 }
-
 .section1{
     width: 300px; 
     padding: 20px;
@@ -172,7 +165,6 @@ body {
     background-color:#F7EBCF; 
     box-shadow: 0px 4px 4px;
 }
-
 .section-title {
     font-size: 20px;
     margin-bottom: 10px;
@@ -183,7 +175,6 @@ body {
     color: #777;
     margin-bottom: 15px;
 }
-
 .learn-more-button1{
     background-color: #5490F5;
     color: white;
@@ -208,7 +199,6 @@ body {
     border-radius: 3px;
     cursor: pointer;
 }
-
 .vision{
     margin-left: 100px;
     margin-top: 50px;
@@ -217,4 +207,45 @@ body {
 .vision1{
     margin-left: 100px;
     font-size: 16px;
-    padding: 10px;}
+    padding: 10px;
+}
+
+/* fourth section */
+.quote-container {
+    margin-left: 100px; 
+    position: relative;
+    top: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px;
+    font-family: Fira Sans;
+    width: 1280px;
+    height: 250px;
+    padding: 24px ;
+
+    display: flex;
+    flex-direction:column;
+    margin: 100px;
+    justify-content: space-between;
+    border-radius: 20px;
+
+
+
+}
+
+blockquote {
+    margin-bottom: 10px;
+}
+
+.pm {
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: flex;
+}
+
+.pmtitle {
+    font-size: 14px;
+    color: #777;
+    margin: 30px;
+
+}
