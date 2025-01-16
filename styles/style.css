@@ -13,29 +13,29 @@ body {
     padding: 10px 20px;
     color: black;
     height: 60px;
-    ;
 }
 .navbar .left {
         font-weight: bold; /* Bold text */
-        font-size: 2.5em; /* Adjust font size */
+        font-size: 3em; /* Adjust font size */
         color: #333; /* Dark text color */
         margin-left: 75px; /* Remove margin around text */
 
 }
-.navbar .right .sign-in-btn {
+.navbar .right .sign-in-btn  {
     background-color: white;
     color: #006A50;
     border: 1px solid #006A50;
     padding: 10px 20px;
-    margin-right: 70px ;
+    margin-right: 90px ;
     font-size: 18px;
     font-weight: bold;
     font-family: Fira Sans;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    width: 116px;
+    height: 52px;    
 }
-
 .navbar .right .sign-in-btn:hover {
     background-color: green;
     color: white;
@@ -52,9 +52,9 @@ body {
     box-shadow:0px 4px 4px;
     height: 1280;
     width: 560;
+    
 }
 
-   
 .hero{
     margin-left: auto;
     height: 470px;
@@ -69,7 +69,9 @@ body {
     background-color: #006A50;
     border-radius: 5px;
     border-style: none;
-    padding: 10px;
+    padding: 18px;
+    border-radius: 8px;
+    font-size: 18px;
 }
 .btn-exp:hover{
     background-color: green;
@@ -79,36 +81,44 @@ body {
 }
 
 .container1{
-    padding-top: 150px;
-
+    padding-top: 15px;
 }
-
 .sub-title{
-    opacity: 40% ;
+    opacity: 30% ;
+    font-size: 24px;
+}
+.title{
+    font-size: 56px;
 }
 
-/* 2nd section*/
+/*2nd section*/
 
-.plofbd-title{
+.pillar-of-bd-title{
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 40px;
+    font-size: 40px;
     
 }
-.container {
+.container2{
     display: flex;
     margin-left: 100px;
     margin-top: 50px; 
     gap: 110px;
+    opacity: 100px;
+    align-items: flex-start;
+    gap: 125px;
+    position: relative;
+       
 }
 
 .pillar {
-    width: 200px; 
-    padding: 20px;
-    box-shadow: 0px 4px 4px;
-    border-radius: 10px;
+    width: 250px;
+    left: 10; 
+    padding: 40px;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 16px;
+    margin-bottom: 20px;
 }
-
-
 
 .pillar-title {
     font-size: 18px;
@@ -116,6 +126,95 @@ body {
 }
 
 .pillar-description {
-    font-size: 14px;
+    font-size: 15px;
     color: #777;
 }
+
+/* Third Section */
+.third-section{
+    width: 1280px;
+    height: 325;
+}
+.container3{
+    justify-content: center;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px; 
+    opacity: 100px;
+    align-items: flex-start;
+    gap: 350px;
+    position: absolute;
+    right: 3%;
+    padding: 32px 32px;
+}
+
+.section1{
+    width: 300px; 
+    padding: 20px;
+    gap:5px;
+    border-radius: 5px;
+    background-color:#81B4FC;
+    box-shadow: 0px 4px 4px;
+}
+.section2{
+    width: 300px; 
+    padding: 20px;
+    gap:5px;
+    border-radius: 5px;
+    background-color:#C6E4D6; 
+    box-shadow: 0px 4px 4px;
+}
+.section3{
+    width: 300px; 
+    padding: 20px;
+    gap:5px;
+    border-radius: 5px;
+    background-color:#F7EBCF; 
+    box-shadow: 0px 4px 4px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.learn-more-button1{
+    background-color: #5490F5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.learn-more-button2{
+    background-color: #09A15C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.learn-more-button3{
+    background-color: #FFC239;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.vision{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.vision1{
+    margin-left: 100px;
+    font-size: 16px;
+    padding: 10px;}
