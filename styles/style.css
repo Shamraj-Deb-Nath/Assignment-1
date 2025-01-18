@@ -202,31 +202,33 @@ body {
     padding: 10px;
 }
 /*fourth section*/
-.quote-container {
-    margin-left: 100px; 
-    position: relative;
-    top: 350px;
+.quote{
+    width: 1700px;
+    height: 200px;
+    margin: 350px auto 0px; 
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px 2px;
-    font-family: Fira Sans;
-    width: 1670px;
-    height: 350px;
-    padding: 24px ;
-    display: flex;
-    flex-direction:column;
-    margin: 100px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    padding: 7px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 450px;
     justify-content: space-between;
-    border-radius: 20px;
 }
-blockquote {
-    margin-bottom: 20px;
+  .quote-text{
+        margin-bottom: 10px;
+        padding-left: 30px;
+        padding-top: 20px;      
 }
 .pm {
     font-size: 18px;
-    margin-left: 40px;
+    margin-left: 0px;
     font-weight: flex;
-    gap: 20px;
+    gap: 10px;
+    margin: 30px;
 }
 .pmtitle {
     font-size: 14px;
@@ -235,15 +237,16 @@ blockquote {
 }
 /*fifth section*/
 .fifth-section {
-    padding-top: 100px;
+    padding-top: 10px;
 }
 table {
-    width: 70%;
+    width: 100%;
     font-family: Fira Sans;
-    margin-top: 50px;
+    margin-top: 30px;
     position: relative;
-    padding-left: 400px;
-    padding-bottom: 70px;
+    padding-left: 40px;
+    padding-right: px;
+    padding-bottom: 50px;
 }
 th {
     background-color: #C6E4D6;
@@ -255,7 +258,7 @@ td {
     border-bottom: 1px solid #ddd;
 }
 select {
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
 }
 .dropdown{
@@ -358,7 +361,7 @@ cursor: pointer;
   .donation-options .option {
     background-color: #FFFFFF; 
     border: none;
-    padding: 15px 30px;
+    padding: 40px 50px;
     border-radius: 5px;
     box-shadow: 1px 4px 4px;
     cursor: pointer;
@@ -368,8 +371,7 @@ cursor: pointer;
     background-color: #C6E4D6;
   }
   .other-amount {
-    width: 100%;
-    max-width: 700px;
+    width: 880px;
     padding: 25px;
     border: 1px solid #ccc;
     box-shadow: 1px 4px 4px;
@@ -463,5 +465,5 @@ cursor: pointer;
     opacity: 0.1;
   }
   .bn{
-    margin-left: 12px;
+    margin-left: 50px;
   }
